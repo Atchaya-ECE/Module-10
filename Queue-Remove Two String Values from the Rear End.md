@@ -32,7 +32,8 @@ To write a Python program to:
 
 
 ### Output:
-![image](https://github.com/user-attachments/assets/3e837197-e88e-4a51-a3f6-be917691141f)
+![image](https://github.com/user-attachments/assets/f973912c-841d-42da-9bdf-c384572c1bea)
+
 
 ## Result:
 Thus, the program has been execueted successfully.

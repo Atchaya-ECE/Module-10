@@ -22,7 +22,7 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
-
+```
 from collections import deque
 
 # Read 5 strings
@@ -35,7 +35,7 @@ sorted_list = sorted(q, reverse=True)
 
 # Print space-separated
 print(' '.join(sorted_list))
-
+```
 ### Output:
 ![image](https://github.com/user-attachments/assets/962cf037-4b35-4b74-a417-3ed5d4fb0adb)
 
@@ -64,7 +64,7 @@ To write a Python program to:
 7. Print the updated list.
 
 ## 🧪 Program: 
-
+```
 from collections import deque
 
 # Read 5 strings
@@ -77,7 +77,7 @@ sorted_list = sorted(q, reverse=True)
 
 # Print space-separated
 print(' '.join(sorted_list))
-
+```
 ### Output:
 ![image](https://github.com/user-attachments/assets/962cf037-4b35-4b74-a417-3ed5d4fb0adb)
 
@@ -107,7 +107,7 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-
+```
   q = []
   n=int(input())
   for i in range(n):
@@ -115,7 +115,7 @@ To write a Python program to:
   q.pop(0)
   q.pop(0)
   print(q)
-
+```
 
 ### Output:
 ![image](https://github.com/user-attachments/assets/f973912c-841d-42da-9bdf-c384572c1bea)
@@ -148,7 +148,7 @@ To create a Python program that:
 6. Use get() repeatedly to pop and print elements in reverse order.
 
 ## Program
-
+```
   from queue import LifoQueue
   stack = LifoQueue(maxsize=7)
   n= int(input())
@@ -157,7 +157,7 @@ To create a Python program that:
   print(stack.full())
   for i in range(n):
       print(stack.get())
-
+```
 
 ## 🧪 Sample Input and Output
 ![image](https://github.com/user-attachments/assets/05e20587-542b-4fd4-9943-f0f13e78aebf)
@@ -188,7 +188,7 @@ To write a Python program that reverses the values in a stack using standard sta
 
 
 ### Program:
-
+```
   stack = []
   n=int(input())
   for i in range(n):
@@ -198,7 +198,7 @@ To write a Python program that reverses the values in a stack using standard sta
   while stack:
      reverse.append(stack.pop())
   print(reverse)
-
+```
 ## 🧪 Sample Input and Output
 ![image](https://github.com/user-attachments/assets/8bf53030-a254-493f-ae95-7021114c9c9e)
 
